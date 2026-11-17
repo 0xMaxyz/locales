@@ -36,6 +36,7 @@
     "generated": "تولیدشده"
   },
   "actions": {
+    "view": "نمایش",
     "download": "دانلود",
     "upload": "بارگذاری سند",
     "newRevision": "بازنگری جدید",
@@ -116,5 +117,58 @@
     "prev": "قبلی",
     "next": "بعدی",
     "page": "صفحهٔ {{page}}"
+  },
+  "viewer": {
+    "download": "دانلود",
+    "close": "بستن نمایشگر",
+    "revision": "بازنگری",
+    "loading": "در حال باز کردن فایل…",
+    "error": "این فایل باز نشد.",
+    "retry": "تلاش دوباره",
+    "unsupported": "این نوع فایل در مرورگر نمایش داده نمی‌شود. دانلودش کنید و با برنامهٔ خودش باز کنید.",
+    "tooLarge": "این فایل برای نمایش در مرورگر بزرگ است (حداکثر {{size}}). به‌جای آن دانلودش کنید.",
+    "engine": {
+      "toolbar": {
+        "zoomIn": "بزرگ‌نمایی",
+        "zoomOut": "کوچک‌نمایی",
+        "zoomReset": "اندازهٔ واقعی",
+        "search": "جستجو",
+        "searchPlaceholder": "جستجو در سند",
+        "searchPrevious": "مورد قبلی",
+        "searchNext": "مورد بعدی",
+        "searchClose": "بستن جستجو",
+        "more": "بیشتر"
+      },
+      "pdf": {
+        "toolbar": {
+          "toggleNavigation": "نمایش یا پنهان‌کردن صفحه‌ها",
+          "previousPage": "صفحهٔ قبل",
+          "nextPage": "صفحهٔ بعد",
+          "fitWidth": "هم‌عرض پنجره",
+          "rotateLeft": "چرخش به چپ",
+          "rotateRight": "چرخش به راست"
+        },
+        "nav": {
+          "pagesTab": "صفحه‌ها",
+          "outlineTab": "فهرست"
+        },
+        "state": {
+          "loading": "در حال باز کردن PDF…"
+        }
+      },
+      "spreadsheet": {
+        "loading": {
+          "title": "در حال باز کردن کاربرگ"
+        }
+      },
+      "presentation": {
+        "state": {
+          "loading": "در حال باز کردن ارائه…"
+        }
+      },
+      "error": {
+        "load": "این فایل خوانده نشد."
+      }
+    }
   }
 }
