@@ -115,6 +115,15 @@
     "inspectorRail": "Inspector: select a step",
     "viewOnlyNarrow": "Editing needs a wider screen. Here you can only view the workflow.",
     "editAsRevision": "Edit as revision {{number}}",
+    "chips": {
+      "noAssignee": "No assignee",
+      "hours": "{{n}} h",
+      "person": "A person",
+      "group": "A group",
+      "fromData": "From the run's data",
+      "byRule": "By a rule",
+      "several": "Several people"
+    },
     "zoomLevel": "Zoom level",
     "fit": "Fit",
     "moreSteps_one": "{{n}} more step to the right",
