@@ -115,6 +115,19 @@
     "inspectorRail": "Inspector: select a step",
     "viewOnlyNarrow": "Editing needs a wider screen. Here you can only view the workflow.",
     "editAsRevision": "Edit as revision {{number}}",
+    "empty": {
+      "title": "Start this workflow",
+      "firstStep": "Add the first step",
+      "firstStepHint": "Pick a block and drop it on the canvas.",
+      "describe": "Describe it",
+      "describeHint": "The assistant drafts the steps for you to check."
+    },
+    "importError": {
+      "atLine": "The saved file could not be read at line {{line}}.",
+      "generic": "The saved diagram could not be drawn.",
+      "nothingLost": "Nothing was changed or lost.",
+      "download": "Download the saved file"
+    },
     "chips": {
       "noAssignee": "No assignee",
       "hours": "{{n}} h",
