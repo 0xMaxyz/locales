@@ -109,6 +109,38 @@
     "zoomIn": "Zoom in",
     "zoomOut": "Zoom out",
     "zoomReset": "Fit to viewport",
+    "back": "Back to workflows",
+    "undo": "Undo",
+    "redo": "Redo",
+    "inspectorRail": "Inspector: select a step",
+    "viewOnlyNarrow": "Editing needs a wider screen. Here you can only view the workflow.",
+    "editAsRevision": "Edit as revision {{number}}",
+    "empty": {
+      "title": "Start this workflow",
+      "firstStep": "Add the first step",
+      "firstStepHint": "Pick a block and drop it on the canvas.",
+      "describe": "Describe it",
+      "describeHint": "The assistant drafts the steps for you to check."
+    },
+    "importError": {
+      "atLine": "The saved file could not be read at line {{line}}.",
+      "generic": "The saved diagram could not be drawn.",
+      "nothingLost": "Nothing was changed or lost.",
+      "download": "Download the saved file"
+    },
+    "chips": {
+      "noAssignee": "No assignee",
+      "hours": "{{n}} h",
+      "person": "A person",
+      "group": "A group",
+      "fromData": "From the run's data",
+      "byRule": "By a rule",
+      "several": "Several people"
+    },
+    "zoomLevel": "Zoom level",
+    "fit": "Fit",
+    "moreSteps_one": "{{n}} more step to the right",
+    "moreSteps_other": "{{n}} more steps to the right",
     "incompatibleWiring": "Incompatible connection: {{reason}}",
     "edit": "Edit",
     "revision": {
@@ -118,6 +150,8 @@
     "publish": {
       "button": "Publish",
       "dialogTitle": "Publish this workflow?",
+      "fixErrors_one": "Fix {{n}} error to publish",
+      "fixErrors_other": "Fix {{n}} errors to publish",
       "dialogBody": "Publishing validates and deploys the current diagram as a new immutable revision. The deployed version cannot be changed afterward — choose Edit later to start the next revision.",
       "confirm": "Publish",
       "cancel": "Cancel",
@@ -129,6 +163,8 @@
       "search": "Search blocks…",
       "noResults": "No blocks match your search.",
       "subflowsEmpty": "No subflows yet",
+      "pin": "Pin open",
+      "unpin": "Unpin",
       "groups": {
         "human": "Human",
         "gate": "Gate",
@@ -156,6 +192,7 @@
       "title": "Properties",
       "tab": "Properties",
       "runsTab": "Runs",
+      "assistantTab": "Assistant",
       "runsPlaceholder": "Run history appears here once this definition is published (E1.2).",
       "empty": "Select an element to edit its properties.",
       "name": "Name",
@@ -257,6 +294,9 @@
       "runHint": "Run validation to check this diagram before publishing.",
       "summary": "{{errors}} error(s), {{warnings}} warning(s)",
       "locate": "Go to element",
+      "cantPublish": "Can't publish yet",
+      "checkedAt": "checked {{time}}",
+      "showFinding": "Show",
       "severity": {
         "error": "Error",
         "warning": "Warning"

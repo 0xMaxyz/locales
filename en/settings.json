@@ -1,6 +1,7 @@
 {
   "nav": {
     "back": "App",
+    "backToApp": "Back to app",
     "settingsTitle": "Settings",
     "preferencesTitle": "Preferences",
     "groupTenant": "Tenant",

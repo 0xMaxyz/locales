@@ -7,8 +7,8 @@
   "empty": "Your inbox is empty — no open tasks are assigned to you.",
   "emptyFiltered": "No tasks match the current filters.",
   "unknownWorkflow": "Unknown workflow",
-  "count_one": "{{count}} item",
-  "count_other": "{{count}} items",
+  "count_one": "{{count, number}} item",
+  "count_other": "{{count, number}} items",
   "row": {
     "runBadge": "Run",
     "pending": "Still loading this row's details…"
@@ -28,7 +28,9 @@
     "deadline": "Deadline",
     "due": "Due",
     "step": "Current step",
-    "assignees": "Assignees"
+    "assignees": "Assignees",
+    "whatToDo": "What to do",
+    "progress": "Progress"
   },
   "sla": {
     "red": "Overdue",
@@ -60,7 +62,10 @@
     "sort": "Sort by",
     "sortSla": "Priority (SLA)",
     "sortDueAt": "Due date",
-    "clear": "Clear filters"
+    "clear": "Clear filters",
+    "button": "Filter",
+    "search": "Filter this list",
+    "workflowUnnamed": "Workflow {{n, number}}"
   },
   "groupBy": {
     "project": "Project",
@@ -98,11 +103,11 @@
   "pagination": {
     "prev": "Previous",
     "next": "Next",
-    "summary": "Showing {{count}} of {{total}}"
+    "summary": "Showing {{count, number}} of {{total, number}}"
   },
   "step": {
-    "counter": "{{current}}/{{total}}",
-    "progressLabel": "Step {{current}} of {{total}}"
+    "counter": "{{current, number}}/{{total, number}}",
+    "progressLabel": "Step {{current, number}} of {{total, number}}"
   },
   "assignees": {
     "label": "Assigned to {{names}}"
@@ -120,5 +125,9 @@
     "activityUnavailable": "Activity is not available for this task.",
     "noActivity": "No activity yet.",
     "openFull": "Open full task"
+  },
+  "tabs": {
+    "label": "Quick filters",
+    "all": "All"
   }
 }

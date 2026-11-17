@@ -99,6 +99,11 @@
       "high": "High",
       "urgent": "Urgent"
     },
+    "stats": {
+      "label": "Task summary",
+      "open": "Open tasks",
+      "done": "Done"
+    },
     "tasks": {
       "heading": "{{count}} tasks",
       "colTask": "Task",
