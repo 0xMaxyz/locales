@@ -18,7 +18,10 @@
     "licenses": "Licenses",
     "invoices": "Invoices",
     "groupPlatform": "Platform",
-    "ai": "AI default"
+    "ai": "AI default",
+    "accessRequests": "Access requests",
+    "accessRequestsPendingCount_one": "{{count}} pending request",
+    "accessRequestsPendingCount_other": "{{count}} pending requests"
   },
   "plans": {
     "title": "Plan catalog",
@@ -232,9 +235,9 @@
       "password": "Password",
       "passwordPlaceholder": "At least 12 characters",
       "role": "Role (optional)",
-      "rolePlaceholder": "e.g. workflow_admin",
       "cancel": "Cancel",
-      "submit": "Create user"
+      "submit": "Create user",
+      "noRole": "No role"
     }
   },
   "tenantForm": {
@@ -779,5 +782,59 @@
     "save": "Save changes",
     "saved": "AI default saved.",
     "saveError": "Couldn't save your changes. Please try again."
+  },
+  "roles": {
+    "tenant_admin": "Workspace admin (tenant_admin)",
+    "workflow_admin": "Workflow admin (workflow_admin)",
+    "task_worker": "Task worker (task_worker)",
+    "run_watcher": "Run watcher (run_watcher)"
+  },
+  "accessRequests": {
+    "title": "Access requests",
+    "subtitle": "Requests from the public request-access page. Approving one creates the workspace and e-mails the requester an invite to become its first admin.",
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "empty": {
+      "pending": "No requests are waiting.",
+      "approved": "No requests have been approved yet.",
+      "rejected": "No requests have been rejected."
+    },
+    "error": "Could not load access requests.",
+    "teamSize": "Team: {{size}}",
+    "approve": "Approve",
+    "resume": "Finish approval",
+    "reject": "Reject",
+    "cancel": "Cancel",
+    "approveTitle": "Approve and create the workspace",
+    "approveHint": "{{name}} ({{email}}) becomes the first admin and gets an e-mail with a link to set a password.",
+    "firstAdminRole": "First admin's role",
+    "approveSubmit": "Approve and create",
+    "approving": "Creating the workspace…",
+    "approveError": {
+      "slugExists": "That slug is already in use. Choose another.",
+      "slugReserved": "That slug is reserved. Choose another.",
+      "licenseLimit": "Your license's tenant limit has been reached.",
+      "provisionFailed": "The workspace was created but provisioning failed. Approve again to retry.",
+      "inProgress": "Someone else is approving this request, or it was already decided.",
+      "error": "Something went wrong. Please try again."
+    },
+    "done": {
+      "title": "“{{name}}” is ready",
+      "emailQueued": "An invite was sent to {{email}}. The link works once and expires in 7 days.",
+      "emailNotQueued": "The invite e-mail could not be queued. Send the requester the link below.",
+      "linkLabel": "Invite link (if the e-mail does not arrive)",
+      "close": "Done"
+    },
+    "rejectConfirm": {
+      "title": "Reject request",
+      "body": "Reject the request from {{name}}? Nothing is created and they are not notified."
+    },
+    "toast": {
+      "rejected": "Request rejected.",
+      "error": "Something went wrong. Please try again."
+    }
   }
 }

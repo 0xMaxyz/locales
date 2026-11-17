@@ -6,25 +6,7 @@
   },
   "hero": {
     "title": "Request access",
-    "subtitle": "Tell us how you'd like to run Eduba and we'll get you set up."
-  },
-  "steps": {
-    "interest": "Choose a trial",
-    "details": "Your details"
-  },
-  "interest": {
-    "legend": "How would you like to run Eduba?",
-    "hosted": {
-      "title": "Hosted trial",
-      "subtitle": "We run it for you, up and running in minutes."
-    },
-    "selfHosted": {
-      "title": "Self-hosted",
-      "subtitle": "Deploy on your own infrastructure."
-    },
-    "continue": "Continue",
-    "chosen": "Trial:",
-    "change": "Change"
+    "subtitle": "Tell us about your team. We'll review your request and e-mail you a link to set up your workspace."
   },
   "form": {
     "name": "Full name",
@@ -37,10 +19,8 @@
     "teamSizePlaceholder": "Select team size",
     "message": "What would you like to build?",
     "messagePlaceholder": "Tell us about the processes you want to run…",
-    "messageFallback": "Request access",
     "required": "required",
     "optional": "optional",
-    "back": "Back",
     "submit": "Submit request",
     "submitting": "Submitting…"
   },
@@ -68,7 +48,7 @@
   },
   "success": {
     "title": "Request received",
-    "body": "We'll be in touch within one business day.",
+    "body": "We'll review it and e-mail you a link to set up your workspace.",
     "cta": "While you wait, explore the docs"
   },
   "footer": {
