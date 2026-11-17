@@ -1,6 +1,7 @@
 {
   "nav": {
     "back": "برنامه",
+    "backToApp": "بازگشت به برنامه",
     "settingsTitle": "تنظیمات",
     "preferencesTitle": "ترجیحات",
     "groupTenant": "فضای کاری",
