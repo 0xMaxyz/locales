@@ -170,6 +170,7 @@
       "title": "Properties",
       "tab": "Properties",
       "runsTab": "Runs",
+      "assistantTab": "Assistant",
       "runsPlaceholder": "Run history appears here once this definition is published (E1.2).",
       "empty": "Select an element to edit its properties.",
       "name": "Name",
