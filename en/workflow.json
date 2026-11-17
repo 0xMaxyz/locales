@@ -281,6 +281,9 @@
       "runHint": "Run validation to check this diagram before publishing.",
       "summary": "{{errors}} error(s), {{warnings}} warning(s)",
       "locate": "Go to element",
+      "cantPublish": "Can't publish yet",
+      "checkedAt": "checked {{time}}",
+      "showFinding": "Show",
       "severity": {
         "error": "Error",
         "warning": "Warning"

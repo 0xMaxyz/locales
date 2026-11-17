@@ -281,6 +281,9 @@
       "runHint": "پیش از انتشار، اعتبارسنجی را اجرا کنید تا این نمودار بررسی شود.",
       "summary": "{{errors}} خطا، {{warnings}} هشدار",
       "locate": "رفتن به عنصر",
+      "cantPublish": "هنوز نمی‌توانید منتشر کنید",
+      "checkedAt": "بررسی در {{time}}",
+      "showFinding": "نمایش",
       "severity": {
         "error": "خطا",
         "warning": "هشدار"
