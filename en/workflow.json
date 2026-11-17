@@ -109,6 +109,10 @@
     "zoomIn": "Zoom in",
     "zoomOut": "Zoom out",
     "zoomReset": "Fit to viewport",
+    "zoomLevel": "Zoom level",
+    "fit": "Fit",
+    "moreSteps_one": "{{n}} more step to the right",
+    "moreSteps_other": "{{n}} more steps to the right",
     "incompatibleWiring": "Incompatible connection: {{reason}}",
     "edit": "Edit",
     "revision": {

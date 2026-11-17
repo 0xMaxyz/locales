@@ -109,6 +109,10 @@
     "zoomIn": "بزرگ‌نمایی",
     "zoomOut": "کوچک‌نمایی",
     "zoomReset": "متناسب با صفحه",
+    "zoomLevel": "میزان بزرگ‌نمایی",
+    "fit": "نمای کامل",
+    "moreSteps_one": "{{n}} مرحلهٔ دیگر در سمت راست",
+    "moreSteps_other": "{{n}} مرحلهٔ دیگر در سمت راست",
     "incompatibleWiring": "اتصال ناسازگار: {{reason}}",
     "edit": "ویرایش",
     "revision": {
