@@ -71,7 +71,7 @@
     "customer": "مشتری",
     "status": "وضعیت",
     "startedLabel": "زمان شروع",
-    "filesCount": "فایل‌ها · {{count}}",
+    "filesCount": "فایل‌ها ({{count}})",
     "whatHappenedLast": "آخرین رویداد",
     "viewFullActivity": "مشاهدهٔ همهٔ فعالیت‌ها ←",
     "viewAllSteps": "نمایش همهٔ مرحله‌ها",
