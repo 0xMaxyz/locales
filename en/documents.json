@@ -36,6 +36,7 @@
     "generated": "Generated"
   },
   "actions": {
+    "view": "View",
     "download": "Download",
     "upload": "Upload document",
     "newRevision": "New revision",
@@ -116,5 +117,58 @@
     "prev": "Previous",
     "next": "Next",
     "page": "Page {{page}}"
+  },
+  "viewer": {
+    "download": "Download",
+    "close": "Close viewer",
+    "revision": "Revision",
+    "loading": "Opening the file…",
+    "error": "Couldn't open this file.",
+    "retry": "Try again",
+    "unsupported": "This file type can't be shown in the browser. Download it to open it in its own app.",
+    "tooLarge": "This file is too large to show in the browser (limit {{size}}). Download it instead.",
+    "engine": {
+      "toolbar": {
+        "zoomIn": "Zoom in",
+        "zoomOut": "Zoom out",
+        "zoomReset": "Actual size",
+        "search": "Search",
+        "searchPlaceholder": "Search the document",
+        "searchPrevious": "Previous match",
+        "searchNext": "Next match",
+        "searchClose": "Close search",
+        "more": "More"
+      },
+      "pdf": {
+        "toolbar": {
+          "toggleNavigation": "Show or hide pages",
+          "previousPage": "Previous page",
+          "nextPage": "Next page",
+          "fitWidth": "Fit width",
+          "rotateLeft": "Rotate left",
+          "rotateRight": "Rotate right"
+        },
+        "nav": {
+          "pagesTab": "Pages",
+          "outlineTab": "Contents"
+        },
+        "state": {
+          "loading": "Opening the PDF…"
+        }
+      },
+      "spreadsheet": {
+        "loading": {
+          "title": "Opening the workbook"
+        }
+      },
+      "presentation": {
+        "state": {
+          "loading": "Opening the presentation…"
+        }
+      },
+      "error": {
+        "load": "This file couldn't be read."
+      }
+    }
   }
 }
