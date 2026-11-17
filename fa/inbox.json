@@ -7,8 +7,8 @@
   "empty": "کارتابل شما خالی است؛ وظیفهٔ بازی به شما واگذار نشده.",
   "emptyFiltered": "وظیفه‌ای با فیلترهای فعلی پیدا نشد.",
   "unknownWorkflow": "گردش‌کار ناشناخته",
-  "count_one": "{{count}} مورد",
-  "count_other": "{{count}} مورد",
+  "count_one": "{{count, number}} مورد",
+  "count_other": "{{count, number}} مورد",
   "row": {
     "runBadge": "اجرا",
     "pending": "جزئیات این ردیف هنوز بارگذاری می‌شود…"
@@ -28,7 +28,9 @@
     "deadline": "مهلت",
     "due": "سررسید",
     "step": "مرحلهٔ فعلی",
-    "assignees": "مسئولان"
+    "assignees": "مسئولان",
+    "whatToDo": "چه باید کرد",
+    "progress": "پیشرفت"
   },
   "sla": {
     "red": "دارای تأخیر",
@@ -60,7 +62,10 @@
     "sort": "مرتب‌سازی بر اساس",
     "sortSla": "اولویت (SLA)",
     "sortDueAt": "تاریخ سررسید",
-    "clear": "پاک کردن فیلترها"
+    "clear": "پاک کردن فیلترها",
+    "button": "فیلتر",
+    "search": "جست‌وجو در این فهرست",
+    "workflowUnnamed": "گردش‌کار {{n, number}}"
   },
   "groupBy": {
     "project": "پروژه",
@@ -98,11 +103,11 @@
   "pagination": {
     "prev": "قبلی",
     "next": "بعدی",
-    "summary": "نمایش {{count}} از {{total}}"
+    "summary": "نمایش {{count, number}} از {{total, number}}"
   },
   "step": {
-    "counter": "{{current}}/{{total}}",
-    "progressLabel": "مرحلهٔ {{current}} از {{total}}"
+    "counter": "{{current, number}}/{{total, number}}",
+    "progressLabel": "مرحلهٔ {{current, number}} از {{total, number}}"
   },
   "assignees": {
     "label": "واگذارشده به {{names}}"
@@ -120,5 +125,9 @@
     "activityUnavailable": "فعالیت‌های این وظیفه در دسترس نیست.",
     "noActivity": "هنوز فعالیتی ثبت نشده.",
     "openFull": "باز کردن صفحهٔ وظیفه"
+  },
+  "tabs": {
+    "label": "فیلترهای سریع",
+    "all": "همه"
   }
 }
