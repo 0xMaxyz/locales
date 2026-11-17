@@ -211,7 +211,11 @@
     },
     "failedStep": {
       "title": "A step of this task could not run",
-      "message": "“{{step}}” could not run, so this task cannot move on by itself. An administrator has been notified and will look into it."
+      "message": "“{{step}}” could not run, so this task cannot move on by itself. An administrator has been notified and will look into it.",
+      "reason": {
+        "config_invalid": "Reason: “{{step}}” is not set up correctly in this task's workflow. Nothing in your work caused it; the workflow has to be corrected and published again.",
+        "access_denied": "Reason: the workspace's access rules do not allow “{{step}}” to run."
+      }
     },
     "escalate": {
       "heading": "Blocked by this step?",
