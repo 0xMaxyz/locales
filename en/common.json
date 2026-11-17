@@ -15,10 +15,14 @@
     "inboundEmail": "Parked inbound email",
     "toggleTheme": "Toggle dark mode",
     "build": "Build",
+    "content": "Content",
+    "admin": "Admin",
     "groupWork": "Work",
     "groupDesign": "Design",
     "pinnedProjects": "Pinned projects",
     "noPinnedProjects": "No pinned projects yet",
+    "collapseGroup": "Collapse {{group}}",
+    "expandGroup": "Expand {{group}}",
     "collapseSidebar": "Collapse sidebar",
     "expandSidebar": "Expand sidebar"
   },
@@ -33,6 +37,8 @@
   "topbar": {
     "home": "Home",
     "language": "Switch language",
+    "workspaceSwitcher": "Switch workspace",
+    "workspaceCurrent": "Current workspace",
     "help": "Help",
     "userMenu": "Account menu",
     "profile": "Profile",
