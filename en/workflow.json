@@ -199,6 +199,13 @@
       "configuration": "Configuration",
       "noConfig": "This block has no configuration.",
       "selectPlaceholder": "Select…",
+      "selector": {
+        "all": "All of the task's documents",
+        "tag": "Documents in one folder",
+        "feel": "Documents matching a FEEL rule",
+        "folder": "Folder",
+        "expression": "FEEL rule over each document"
+      },
       "condition": "Condition (FEEL)",
       "mappings": "Mappings (FEEL)",
       "mappingDirection": "Direction",
@@ -213,7 +220,9 @@
         "invalidNumber": "Must be a number.",
         "invalidFeel": "Invalid FEEL expression.",
         "invalidOption": "Choose one of the allowed values.",
-        "invalidAssignee": "Not a valid assignee — pick a role, user, or group, or fix the raw JSON in Advanced."
+        "invalidAssignee": "Not a valid assignee — pick a role, user, or group, or fix the raw JSON in Advanced.",
+        "invalidSelector": "Choose which documents again: all of them, one folder, or a FEEL rule.",
+        "invalidObject": "Must be a JSON object, for example {\"kind\": \"Task\", \"id\": \"…\"}."
       },
       "assignee": {
         "tabs": {
