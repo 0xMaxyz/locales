@@ -889,12 +889,10 @@
   },
   "subscription": {
     "title": "Plan & usage",
-    "sub": "Your subscription tier, seat usage, and license.",
+    "sub": "Your subscription tier and seat usage.",
     "error": "Couldn't load subscription details. Please try again.",
     "planTitle": "Current plan",
     "seats": "Active seats",
-    "expires": "Expires",
-    "noExpiry": "No expiry",
     "tier": {
       "starter": "Starter",
       "professional": "Professional",
@@ -915,14 +913,6 @@
       "annual": "Billed annually",
       "custom": "Custom billing"
     },
-    "license": {
-      "title": "License",
-      "valid": "Active",
-      "none": "Unlicensed",
-      "activated": "License activated.",
-      "invalid": "That license key is not valid.",
-      "uploadError": "Couldn't verify the license key. Please try again."
-    },
     "features": {
       "title": "Features",
       "sub": "Modules available on your plan. Gated modules unlock on higher tiers.",
@@ -941,13 +931,6 @@
       "cad": "CAD",
       "bi": "Analytics",
       "chat": "Chat"
-    },
-    "upload": {
-      "title": "Activate a license key",
-      "sub": "Self-hosted installations paste their signed license key here to verify and activate it.",
-      "label": "License key",
-      "placeholder": "Paste your license key",
-      "button": "Verify & activate"
     }
   },
   "referralCredits": {
