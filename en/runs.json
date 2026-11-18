@@ -168,7 +168,12 @@
       "dynamic": "a dynamic assignment rule",
       "ruleRef": "a decision rule",
       "any": "a combined assignment rule",
-      "all": "a combined assignment rule"
+      "all": "a combined assignment rule",
+      "taskSlot": "the task's responsible or reviewer"
+    },
+    "taskSlot": {
+      "responsible": "the task's responsible",
+      "reviewer": "the task's reviewer"
     }
   },
   "stalledRound": {
