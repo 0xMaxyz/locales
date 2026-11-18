@@ -169,11 +169,16 @@
       "ruleRef": "a decision rule",
       "any": "a combined assignment rule",
       "all": "a combined assignment rule",
-      "taskSlot": "the task's responsible or reviewer"
+      "taskSlot": "the task's responsible or reviewer",
+      "taskParty": "the task's creator or its project manager"
     },
     "taskSlot": {
       "responsible": "the task's responsible",
       "reviewer": "the task's reviewer"
+    },
+    "taskParty": {
+      "creator": "the task's creator",
+      "projectManager": "the project's manager"
     }
   },
   "stalledRound": {

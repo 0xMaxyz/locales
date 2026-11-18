@@ -232,7 +232,8 @@
           "dynamic": "Dynamic",
           "rule": "Rule",
           "advanced": "Advanced",
-          "taskSlot": "This task"
+          "taskSlot": "This task",
+          "taskParty": "From the task"
         },
         "searchPlaceholder": "Search…",
         "noResults": "No matches.",
@@ -252,6 +253,11 @@
           "hint": "Send this step to whoever the task is assigned to. Reassigning the task moves the step; the assignee needs no role.",
           "responsible": "Task responsible",
           "reviewer": "Task reviewer"
+        },
+        "taskParty": {
+          "hint": "Send this step to the person who created the task, or to the manager of its project (the person who created the project).",
+          "creator": "Task creator",
+          "projectManager": "Project manager"
         }
       },
       "checkpoint": {
@@ -359,7 +365,9 @@
         "taskId": "Task",
         "taskRef": "Task",
         "title": "Title",
-        "toStage": "Move to stage"
+        "toStage": "Move to stage",
+        "responsibleRole": "Responsible's role",
+        "reviewerRole": "Reviewer's role"
       }
     },
     "validation": {

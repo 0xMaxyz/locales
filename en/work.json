@@ -231,6 +231,21 @@
       "recordedBy": "Reported to your administrators by {{name}} {{when}}.",
       "alreadyRecorded": "You already reported this step — nothing further was sent.",
       "failed": "That could not be sent. Please try again."
+    },
+    "staffing": {
+      "intro": "Pick who does this task, who reviews it, and when it is due. The steps after this one go to the people you pick.",
+      "slots": {
+        "responsible": "Responsible",
+        "reviewer": "Reviewer"
+      },
+      "nobody": "Nobody yet",
+      "filterRole": "Only people with the {{role}} role are listed, because this step asks for that role.",
+      "filterAll": "Everyone in the workspace is listed, because this step asks for no particular role.",
+      "routes": "Gets these steps: {{steps, list}}",
+      "routesNone": "No step in this workflow goes to this choice, so you can leave it empty.",
+      "dueDate": "Due date",
+      "missing": "Pick someone for {{slots, list}} before you finish: later steps go to them.",
+      "submit": "Save team and continue"
     }
   },
   "createTask": {
@@ -292,7 +307,8 @@
       "groupMembers_one": "{{count}} member",
       "groupMembers_other": "{{count}} members",
       "clear": "Clear",
-      "optional": "Optional"
+      "optional": "Optional",
+      "unstaffedWarning": "Some steps of this workflow go to the task's responsible, and it has no Assign team step. Until someone is set as responsible, those steps wait for nobody. You can still create the task and assign it later."
     },
     "buttons": {
       "back": "Back",
