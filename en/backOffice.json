@@ -15,7 +15,6 @@
     "packModeration": "Pack moderation",
     "packModerationPendingCount": "{{count}} pending submission",
     "packModerationPendingCount_other": "{{count}} pending submissions",
-    "licenses": "Licenses",
     "invoices": "Invoices",
     "groupPlatform": "Platform",
     "ai": "AI default",
@@ -215,7 +214,6 @@
       "provisionFailed": "Tenant “{{name}}” was created but provisioning failed. It won't be usable until provisioning is retried.",
       "slugExists": "That slug is already in use.",
       "slugReserved": "That slug is reserved.",
-      "licenseLimit": "Your license's tenant limit has been reached.",
       "updated": "Tenant “{{name}}” updated.",
       "suspended": "Tenant “{{name}}” suspended.",
       "unsuspended": "Tenant “{{name}}” unsuspended.",
@@ -663,69 +661,6 @@
       "error": "Could not update the submission."
     }
   },
-  "licenses": {
-    "title": "License keys",
-    "subtitle": "Issue and revoke self-hosted license keys.",
-    "newLicense": "New license",
-    "empty": "No licenses issued yet.",
-    "error": "Could not load licenses.",
-    "table": {
-      "id": "ID",
-      "tier": "Tier",
-      "maxTenants": "Max tenants",
-      "issued": "Issued",
-      "expires": "Expires",
-      "status": "Status",
-      "invoiceRef": "Invoice ref.",
-      "actions": "Actions"
-    },
-    "status": {
-      "active": "Active",
-      "expired": "Expired",
-      "revoked": "Revoked"
-    },
-    "actions": {
-      "revoke": "Revoke"
-    },
-    "revoke": {
-      "title": "Revoke license",
-      "body": "Revoke license {{id}}…? It will never validate again. This cannot be undone.",
-      "confirm": "Revoke license",
-      "cancel": "Cancel"
-    },
-    "reveal": {
-      "title": "License key generated",
-      "warning": "This key is shown once and is not stored anywhere. Copy it now — it cannot be retrieved again.",
-      "keyLabel": "License key",
-      "copy": "Copy to clipboard",
-      "copied": "Copied to clipboard.",
-      "done": "Done"
-    },
-    "toast": {
-      "revoked": "License revoked.",
-      "error": "Something went wrong. Please try again.",
-      "unconfigured": "This install isn't configured to issue that kind of key."
-    }
-  },
-  "licenseForm": {
-    "title": "Issue license key",
-    "subtitle": "Mints an entitlement key. The key itself is shown once and never stored.",
-    "keyType": "Key type",
-    "plain": "Plain key",
-    "plainHint": "A raw key hashed and stored locally — activates only on this install.",
-    "signed": "Signed key",
-    "signedHint": "A self-contained key signed with the platform private key — activates offline on any install, no shared database row.",
-    "tier": "Tier",
-    "maxTenants": "Max tenants",
-    "unlimited": "Unlimited",
-    "maxTenantsInvalid": "Enter a positive whole number, or leave blank for unlimited.",
-    "expiresAt": "Expires",
-    "perpetual": "Perpetual",
-    "invoiceRef": "Invoice reference",
-    "optional": "Optional",
-    "cancel": "Cancel",
-    "generate": "Generate key"
-  },
   "invoices": {
     "title": "Invoices",
     "subtitle": "Record and track manual invoices for tenants or the platform.",
@@ -816,7 +751,6 @@
     "approveError": {
       "slugExists": "That slug is already in use. Choose another.",
       "slugReserved": "That slug is reserved. Choose another.",
-      "licenseLimit": "Your license's tenant limit has been reached.",
       "provisionFailed": "The workspace was created but provisioning failed. Approve again to retry.",
       "inProgress": "Someone else is approving this request, or it was already decided.",
       "error": "Something went wrong. Please try again."
