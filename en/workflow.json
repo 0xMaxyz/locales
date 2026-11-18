@@ -231,7 +231,8 @@
           "group": "Group",
           "dynamic": "Dynamic",
           "rule": "Rule",
-          "advanced": "Advanced"
+          "advanced": "Advanced",
+          "taskSlot": "This task"
         },
         "searchPlaceholder": "Search…",
         "noResults": "No matches.",
@@ -246,6 +247,11 @@
         },
         "advanced": {
           "hint": "Raw AssigneeSpec JSON — for combined (any/all) specs or fixing a malformed value."
+        },
+        "taskSlot": {
+          "hint": "Send this step to whoever the task is assigned to. Reassigning the task moves the step; the assignee needs no role.",
+          "responsible": "Task responsible",
+          "reviewer": "Task reviewer"
         }
       },
       "checkpoint": {

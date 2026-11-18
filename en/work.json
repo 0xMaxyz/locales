@@ -334,7 +334,10 @@
     "auditNote": "This change is recorded in the audit log.",
     "error": "Couldn't update the assignment. Please try again.",
     "forbidden": "You don't have permission to assign this task.",
-    "success": "Assignment updated."
+    "success": "Assignment updated.",
+    "routes": "Gets these steps: {{steps, list}}",
+    "routesNone": "No step in this workflow goes to this choice.",
+    "informational": "No step in this task's workflow is bound to the task's responsible or reviewer. Saving records who owns the task; its steps still go to the roles the workflow names."
   },
   "bulkAssign": {
     "title_one": "Assign {{count}} task",
