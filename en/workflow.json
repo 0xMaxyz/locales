@@ -450,7 +450,17 @@
         "policyCapabilityUnsatisfiable": "No current role in your organization can grant the capability '{{capability}}' this block needs.",
         "diagramParseFailed": "The BPMN diagram could not be parsed: {{error}}",
         "assigneeRoleUnknown": "The role '{{role}}' chosen for the assignee does not exist in this workspace.",
-        "engineDeployRejected": "The engine rejected the deployment: {{error}}"
+        "engineDeployRejected": "The engine rejected the deployment: {{error}}",
+        "subflowEmptyBody": "A subflow must contain at least one step before it can be published.",
+        "subflowCompileFailed": "The subflow could not be checked: {{error}}",
+        "subflowEdgeTypeMismatch": "The connection from '{{from}}' to '{{to}}' does not fit: it carries '{{sourceType}}', but '{{destType}}' is expected.",
+        "subflowInputUnconsumed": "Interface input '{{port}}' is not used: connect it to a step inside the subflow.",
+        "subflowInputTypeMismatch": "Interface input '{{port}}' carries '{{type}}', but '{{target}}' expects '{{expected}}'.",
+        "subflowOutputUnproduced": "Interface output '{{port}}' is never filled: connect a step inside the subflow to it.",
+        "subflowOutputTypeMismatch": "'{{source}}' produces '{{type}}', but interface output '{{port}}' expects '{{expected}}'.",
+        "aiProviderUnreachable": "The AI service could not be reached. Try again later.",
+        "aiOutputInvalid": "The AI answered with something that is not a usable draft. Try rephrasing your request.",
+        "aiNoDraft": "No draft could be made. Try rephrasing your request."
       }
     },
     "collapse": "Collapse",
