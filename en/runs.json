@@ -174,7 +174,10 @@
     },
     "taskSlot": {
       "responsible": "the task's responsible",
-      "reviewer": "the task's reviewer"
+      "reviewer": "the task's reviewer",
+      "supervisor": "the task's supervisor",
+      "checker": "the task's checker",
+      "approver": "the task's approver"
     },
     "taskParty": {
       "creator": "the task's creator",
