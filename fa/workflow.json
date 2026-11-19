@@ -367,7 +367,10 @@
         "title": "عنوان",
         "toStage": "انتقال به مرحله",
         "responsibleRole": "نقش مسئول",
-        "reviewerRole": "نقش بازبین"
+        "reviewerRole": "نقش بازبین",
+        "supervisorRole": "نقش سرپرست",
+        "checkerRole": "نقش کنترل‌کننده",
+        "approverRole": "نقش تأییدکننده"
       }
     },
     "validation": {

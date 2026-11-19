@@ -367,7 +367,10 @@
         "title": "Title",
         "toStage": "Move to stage",
         "responsibleRole": "Responsible's role",
-        "reviewerRole": "Reviewer's role"
+        "reviewerRole": "Reviewer's role",
+        "supervisorRole": "Supervisor's role",
+        "checkerRole": "Checker's role",
+        "approverRole": "Approver's role"
       }
     },
     "validation": {

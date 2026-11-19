@@ -174,7 +174,10 @@
     },
     "taskSlot": {
       "responsible": "مسئول وظیفه",
-      "reviewer": "بازبین وظیفه"
+      "reviewer": "بازبین وظیفه",
+      "supervisor": "سرپرست وظیفه",
+      "checker": "کنترل‌کنندهٔ وظیفه",
+      "approver": "تأییدکنندهٔ وظیفه"
     },
     "taskParty": {
       "creator": "سازندهٔ وظیفه",
