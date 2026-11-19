@@ -68,7 +68,9 @@
     "disabledReason": {
       "noFile": "Choose a file to continue.",
       "noKey": "Enter a document path to continue."
-    }
+    },
+    "quotaStorage": "There isn't enough storage left on your plan for this file. Ask your workspace admin to upgrade the plan.",
+    "quotaDatabase": "Your workspace's database is full, so new files can't be added. Ask your workspace admin to upgrade the plan."
   },
   "history": {
     "title": "Revision history",
