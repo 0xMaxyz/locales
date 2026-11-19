@@ -579,6 +579,23 @@
       "invalidCode": "Invalid or expired code."
     }
   },
+  "adminSetup": {
+    "title": "Set up the operator account",
+    "subtitle": "One-time setup. This page disappears once an operator exists.",
+    "token": "Setup token",
+    "tokenHint": "The APP_ADMIN_SETUP_TOKEN value, or the token printed once in the api log at startup.",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "At least 12 characters.",
+    "submit": "Create operator account",
+    "submitting": "Creating…",
+    "error": {
+      "invalidToken": "That setup token is not correct.",
+      "rateLimited": "Too many attempts. Try again shortly.",
+      "generic": "Could not create the account. Check the fields and try again."
+    }
+  },
   "feedback": {
     "title": "Docs feedback",
     "subtitle": "Triage the change requests and corrections readers submit from the documentation.",
