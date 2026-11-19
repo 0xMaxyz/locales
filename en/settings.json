@@ -843,7 +843,11 @@
     "keySaved": "•••••••• (saved — leave blank to keep)",
     "forcePathStyle": "Force path-style addressing",
     "forcePathStyleHint": "Required for MinIO and most S3-compatible servers.",
-    "credentialNote": "Credentials are encrypted at rest and never shown again. The connection is validated before it goes active."
+    "credentialNote": "Credentials are encrypted at rest and never shown again. The connection is validated before it goes active.",
+    "enterpriseOnly": {
+      "title": "Your own storage is available on Enterprise",
+      "body": "Documents are kept on our managed storage, within your plan's quota. To keep them on your own S3-compatible server, contact us about the Enterprise plan."
+    }
   },
   "dbConnector": {
     "title": "Database connector",
@@ -885,7 +889,11 @@
     "passwordPlaceholder": "Enter the database password",
     "keySaved": "•••••••• (saved — leave blank to keep)",
     "backupWarning": "Switching to a bring-your-own database will migrate your data. Back up first.",
-    "credentialNote": "Credentials are encrypted at rest and never shown again. The connection is validated before it goes active."
+    "credentialNote": "Credentials are encrypted at rest and never shown again. The connection is validated before it goes active.",
+    "enterpriseOnly": {
+      "title": "Your own database is available on Enterprise",
+      "body": "Your data is kept on our managed database, within your plan's quota. To run on your own PostgreSQL server, contact us about the Enterprise plan."
+    }
   },
   "subscription": {
     "title": "Plan & usage",
@@ -931,6 +939,17 @@
       "cad": "CAD",
       "bi": "Analytics",
       "chat": "Chat"
+    },
+    "usage": {
+      "title": "Storage and database",
+      "sub": "How much of your plan's managed storage and database you are using.",
+      "storage": "Document storage",
+      "database": "Database",
+      "usedOf": "{{used}} of {{limit}} used",
+      "noLimit": "{{used}} used, no limit",
+      "byo": "On your own server, so the plan limit does not apply",
+      "storageFull": "Full. New uploads are refused until the plan is upgraded.",
+      "databaseFull": "Full. New uploads, records and tasks are refused until the plan is upgraded."
     }
   },
   "referralCredits": {

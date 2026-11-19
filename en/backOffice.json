@@ -68,7 +68,8 @@
       "publishedWorkflows": "Published workflows",
       "runsPerMonth": "Runs / month",
       "storageGb": "Storage (GB)",
-      "seats": "Seats"
+      "seats": "Seats",
+      "databaseGb": "Database (GB)"
     },
     "retire": {
       "title": "Retire plan",
@@ -103,7 +104,7 @@
     "status": "Status",
     "sortOrder": "Sort order",
     "limits": "Limits",
-    "limitsHint": "Leave a field blank for unlimited.",
+    "limitsHint": "Leave a field blank for unlimited. On Starter and Professional, a blank storage or database cap uses the tier default.",
     "referralEligible": "Earns referral rewards",
     "creditEligible": "Payable with account credit",
     "cancel": "Cancel",
@@ -248,7 +249,9 @@
     "tier": "Tier",
     "cancel": "Cancel",
     "create": "Create tenant",
-    "save": "Save changes"
+    "save": "Save changes",
+    "byoAllowed": "Allow own database and storage (BYO)",
+    "byoAllowedHint": "Enterprise tenants always can. Turn this on to let a tenant on a smaller plan connect its own servers."
   },
   "payments": {
     "title": "Payments",
