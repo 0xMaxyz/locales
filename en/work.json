@@ -236,8 +236,17 @@
       "intro": "Pick who does this task, who reviews it, and when it is due. The steps after this one go to the people you pick.",
       "slots": {
         "responsible": "Responsible",
-        "reviewer": "Reviewer"
+        "reviewer": "Reviewer",
+        "supervisor": "Supervisor",
+        "checker": "Checker",
+        "approver": "Approver"
       },
+      "gatesTitle": "Review gates",
+      "gatesIntro": "The review has three gates: supervise, check and approve. Each goes to the reviewer unless you pick someone else for it. One person may hold more than one gate.",
+      "sameAsReviewer": "Same as the reviewer",
+      "people": "People",
+      "groups": "Groups",
+      "gateRoutes": "Gets this gate in: {{steps, list}}",
       "nobody": "Nobody yet",
       "filterRole": "Only people with the {{role}} role are listed, because this step asks for that role.",
       "filterAll": "Everyone in the workspace is listed, because this step asks for no particular role.",
