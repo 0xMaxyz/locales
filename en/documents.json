@@ -64,6 +64,7 @@
       "finalizing": "Finalizing revision…"
     },
     "denied": "You are not permitted to upload here.",
+    "afcLocked": "This document is approved for construction (AFC), so it takes no new revisions. A customer revision reset reopens it.",
     "error": "Upload failed. Nothing was saved — please try again.",
     "disabledReason": {
       "noFile": "Choose a file to continue.",
